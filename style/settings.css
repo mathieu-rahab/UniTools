@@ -1,0 +1,100 @@
+
+
+#parametre{
+    position: relative;
+    
+    margin:  auto;
+    /*border: 1px solid white;*/
+    display: block;
+    animation: apparition 1.5s ease-in-out;
+    width: 4%;
+    height: 4%;
+
+
+    
+}
+
+
+
+
+.contenerButtonCloseSettings{
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    height: 60px;
+    background-color: #093753;
+
+}
+
+
+#titleChoixObjHeure{
+    position: absolute;
+    left: 17%;
+    top: 75px;;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#choixObjHeure{
+    position: absolute;
+    left: 15%;
+    top:90px;
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+
+
+
+#titleDateObj{
+    position: absolute;
+    left: 17%;
+    top: 125px;;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#dateObj{
+    position: absolute;
+    left: 15%;
+    top:140px;
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    
+}
+
+
+#titleSwitch{
+    position: absolute;
+    left: 17%;
+    top: 185px;
+    width: 80px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#closeSettingsbutton{
+    position: absolute;
+    bottom: 25px;
+    left: 5%;
+    width: 90%;
+    height: 30px;
+    background-color: #4070f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,21 @@
+.contenerMinuteur{
+    display: none;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 25%;
+    min-width: 170px;
+    height: auto;
+    padding: 10px;
+    background-color: #4070f4;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    z-index: 1002;
+}
+.contenerMinuteur time{
+
+    font-size: 25px;
+}

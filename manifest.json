@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "UniTools",
+  "version": "1.02",
+  "description": "Description de votre extension",
+  "permissions": ["https://calao.univ-littoral.fr/*","storage"],
+  "action": {
+    
+    "default_icon": {
+      "16": "icons/fr16.png",
+      "48": "icons/fr48.png",
+      "128": "icons/fr128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/fr16.png",
+    "48": "icons/fr48.png",
+    "128": "icons/fr128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://calao.univ-littoral.fr/ressource/voir/*"],
+      "js": ["js/content.js","js/annimation.js"],
+      "css": ["style/widget.css","style/settings.css","style/checkbox.css","style/timer.css"]
+    },
+    {
+      "matches": ["https://calao.univ-littoral.fr/carnet-de-bord/voir/*"],
+      "js": ["js/tableaudebords.js"]
+      
+    }
+  ],
+  "background": {
+    "service_worker": "installation/background.js"
+  }
+}
